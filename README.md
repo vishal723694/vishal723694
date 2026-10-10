@@ -8,7 +8,7 @@
 
   <br />
 
-  <!-- ðŸ† Verified Achievements Quick-Bar -->
+  <!-- 🏆 Verified Achievements Quick-Bar -->
   <img src="https://img.shields.io/badge/Pull%20Shark-Silver-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Pull Shark Silver" />
   <img src="https://img.shields.io/badge/Quickdraw-Unlocked-F59E0B?style=for-the-badge&logo=lightning&logoColor=white" alt="Quickdraw" />
   <img src="https://img.shields.io/badge/YOLO-Merged-EF4444?style=for-the-badge&logo=gitpullrequest&logoColor=white" alt="YOLO" />
@@ -19,14 +19,14 @@
 
   ```text
   $ whoami
-  > Vishal â€” Frontier AI Engineer & Agent Benchmark Specialist
+  > Vishal — Frontier AI Engineer & Agent Benchmark Specialist
   > Specializing in SWE-bench, TerminalBench, GAIA, RLVR Verifiers & Long-Horizon Failures
   ```
 </div>
 
 ---
 
-### âš¡ At a Glance
+### ⚡ At a Glance
 
 <div align="center">
   <img src="https://img.shields.io/badge/Benchmark_Suites-8_Production_Frameworks-4F46E5?style=flat-square&logo=github" />
@@ -38,64 +38,64 @@
 
 ---
 
-## ðŸ”¬ Core Focus & Engineering Specialization
+## 🔬 Core Focus & Engineering Specialization
 
-I specialize in **frontier AI evaluation, deterministic grading harnesses, and agent task synthesis**. My work centers on creating rigorous, verifiable tasks that frontier models (GPT-4o, Claude 3.5 Sonnet, DeepSeek-R1/V3, Gemini 1.5/2.0) fail onâ€”specifically in multi-step agentic trajectories and code intelligence.
+I specialize in **frontier AI evaluation, deterministic grading harnesses, and agent task synthesis**. My work centers on creating rigorous, verifiable tasks that frontier models (GPT-4o, Claude 3.5 Sonnet, DeepSeek-R1/V3, Gemini 1.5/2.0) fail on—specifically in multi-step agentic trajectories and code intelligence.
 
-- ðŸŽ¯ **Long-Horizon Agent Trajectories (15â€“30+ steps):** Designing multi-turn interactive environments testing context retention, backtracking, tool error recovery, and constraint stability.
-- ðŸ’» **Terminal & OS Benchmarks (TerminalBench / OSWorld style):** Authoring realistic Linux/CLI debugging scenarios, system administration puzzles, and network edge cases evaluated with isolated Docker containers and deterministic pytest assertions.
-- ðŸ› ï¸ **SWE-bench Task Creation:** Extracting real-world GitHub issues and PRs into standardized SWE-bench instances (clean base commit, problem statement, reproducible fail-to-pass test patches).
-- ðŸ§ª **RLVR (Reinforcement Learning with Verifiable Rewards):** Engineering automated deterministic grading environments where model outputs can be verified programmatically without human ambiguity.
-- ðŸš¨ **Model Red-Teaming & Failure Taxonomy:** Systematic failure mode categorization (sycophancy, context window degradation, tool loop hallucination, subtle numerical/boundary drift).
+- 🎯 **Long-Horizon Agent Trajectories (15–30+ steps):** Designing multi-turn interactive environments testing context retention, backtracking, tool error recovery, and constraint stability.
+- 💻 **Terminal & OS Benchmarks (TerminalBench / OSWorld style):** Authoring realistic Linux/CLI debugging scenarios, system administration puzzles, and network edge cases evaluated with isolated Docker containers and deterministic pytest assertions.
+- 🛠️ **SWE-bench Task Creation:** Extracting real-world GitHub issues and PRs into standardized SWE-bench instances (clean base commit, problem statement, reproducible fail-to-pass test patches).
+- 🧪 **RLVR (Reinforcement Learning with Verifiable Rewards):** Engineering automated deterministic grading environments where model outputs can be verified programmatically without human ambiguity.
+- 🚨 **Model Red-Teaming & Failure Taxonomy:** Systematic failure mode categorization (sycophancy, context window degradation, tool loop hallucination, subtle numerical/boundary drift).
 
 ---
 
-## ðŸ—ï¸ Evaluation Harness Architecture
+## 🏗️ Evaluation Harness Architecture
 
 ```
-                 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-                 â”‚  Problem Definition & Target State   â”‚
-                 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                                    â”‚
-                                    â–¼
-       â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-       â”‚             Isolated Sandbox Execution                 â”‚
-       â”‚  â€¢ Ephemeral Docker Container (Ubuntu/Alpine)          â”‚
-       â”‚  â€¢ Corrupt State Injection (Git/Sysadmin/Networking)   â”‚
-       â”‚  â€¢ Strict Non-Interactive Environment Boundaries       â”‚
-       â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                                    â”‚
+                 ┌──────────────────────────────────────┐
+                 │  Problem Definition & Target State   │
+                 └──────────────────┬───────────────────┘
+                                    │
+                                    ▼
+       ┌────────────────────────────────────────────────────────┐
+       │             Isolated Sandbox Execution                 │
+       │  • Ephemeral Docker Container (Ubuntu/Alpine)          │
+       │  • Corrupt State Injection (Git/Sysadmin/Networking)   │
+       │  • Strict Non-Interactive Environment Boundaries       │
+       └────────────────────────────┬───────────────────────────┘
+                                    │
                          Observation Loop (Tool Execution)
-                                    â”‚
-                                    â–¼
-       â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-       â”‚             Autonomous Agent Reasoning                 â”‚
-       â”‚  â€¢ Multi-Turn Tool Loop (ReAct / Function Calling)     â”‚
-       â”‚  â€¢ Trajectory Telemetry (Tokens, Latency, Commands)    â”‚
-       â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                                    â”‚
+                                    │
+                                    ▼
+       ┌────────────────────────────────────────────────────────┐
+       │             Autonomous Agent Reasoning                 │
+       │  • Multi-Turn Tool Loop (ReAct / Function Calling)     │
+       │  • Trajectory Telemetry (Tokens, Latency, Commands)    │
+       └────────────────────────────┬───────────────────────────┘
+                                    │
                         Completion Signal (EXIT)
-                                    â”‚
-                                    â–¼
-       â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-       â”‚            Deterministic Grading Engine                â”‚
-       â”‚  â€¢ Fail-to-Pass (F2P) & Pass-to-Pass (P2P) Assertions  â”‚
-       â”‚  â€¢ Negative Constraint Violation Auditor               â”‚
-       â”‚  â€¢ Exit Code & File System Integrity Check             â”‚
-       â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                                    â”‚
-                                    â–¼
+                                    │
+                                    ▼
+       ┌────────────────────────────────────────────────────────┐
+       │            Deterministic Grading Engine                │
+       │  • Fail-to-Pass (F2P) & Pass-to-Pass (P2P) Assertions  │
+       │  • Negative Constraint Violation Auditor               │
+       │  • Exit Code & File System Integrity Check             │
+       └────────────────────────────┬───────────────────────────┘
+                                    │
+                                    ▼
                   [Pass@1 Report & Cognitive Metrics]
 ```
 
 ---
 
-## ðŸ† Flagship Evaluation Suites & Benchmarks
+## 🏆 Flagship Evaluation Suites & Benchmarks
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">ðŸ–¥ï¸ <a href="https://github.com/vishal723694/terminal-bench-eval">terminal-bench-eval</a></h3>
+      <h3 align="center">🖥️ <a href="https://github.com/vishal723694/terminal-bench-eval">terminal-bench-eval</a></h3>
       <p align="center"><b>Sandboxed CLI & OS Agent Benchmark Harness</b></p>
       <ul>
         <li><b>8 Production Tasks:</b> Corrupt Git HEADs, socket TIME_WAIT deadlocks, C ABI mismatches, DNS loops, SQLite WAL locks.</li>
@@ -108,7 +108,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">ðŸ› ï¸ <a href="https://github.com/vishal723694/swe-bench-task-forge">swe-bench-task-forge</a></h3>
+      <h3 align="center">🛠️ <a href="https://github.com/vishal723694/swe-bench-task-forge">swe-bench-task-forge</a></h3>
       <p align="center"><b>SWE-bench Task Authoring & Verification Pipeline</b></p>
       <ul>
         <li><b>3-Stage Protocol:</b> Automated Fail-to-Pass (F2P) & Pass-to-Pass (P2P) test isolation verification.</li>
@@ -123,10 +123,10 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">ðŸ§  <a href="https://github.com/vishal723694/long-horizon-agent-stress-bench">long-horizon-agent-stress-bench</a></h3>
+      <h3 align="center">🧠 <a href="https://github.com/vishal723694/long-horizon-agent-stress-bench">long-horizon-agent-stress-bench</a></h3>
       <p align="center"><b>Cognitive Failure Taxonomy & Degradation Suite</b></p>
       <ul>
-        <li><b>15â€“30+ Step Tasks:</b> Stress-testing frontier agent reasoning over deep tool-calling trajectories.</li>
+        <li><b>15–30+ Step Tasks:</b> Stress-testing frontier agent reasoning over deep tool-calling trajectories.</li>
         <li><b>Failure Taxonomy:</b> Automated detection of Context Window Drift, Circular Retry Loops, and State Desync.</li>
         <li><b>Empirical Analysis:</b> Published failure distributions across 120 trajectories for Claude, GPT, and DeepSeek.</li>
       </ul>
@@ -136,7 +136,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">ðŸ§® <a href="https://github.com/vishal723694/rlvr-math-verifiers">rlvr-math-verifiers</a></h3>
+      <h3 align="center">🧮 <a href="https://github.com/vishal723694/rlvr-math-verifiers">rlvr-math-verifiers</a></h3>
       <p align="center"><b>RLVR Deterministic Reward Environments</b></p>
       <ul>
         <li><b>Verifiable Rewards:</b> High-throughput mathematical reward signals ($r \in \{0.0, 1.0\}$) for PPO & GRPO.</li>
@@ -151,10 +151,10 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">ðŸŒ <a href="https://github.com/vishal723694/gaia-agent-eval-harness">gaia-agent-eval-harness</a></h3>
+      <h3 align="center">🌍 <a href="https://github.com/vishal723694/gaia-agent-eval-harness">gaia-agent-eval-harness</a></h3>
       <p align="center"><b>GAIA Multi-Modal Agent Benchmark Suite</b></p>
       <ul>
-        <li><b>Levels 1â€“3:</b> Evaluates multi-modal synthesis (text, tables, PDFs) and web navigation.</li>
+        <li><b>Levels 1–3:</b> Evaluates multi-modal synthesis (text, tables, PDFs) and web navigation.</li>
         <li><b>Quasi-Exact Matching:</b> Implements official GAIA numerical tolerance and unordered set matching.</li>
         <li><b>Leaderboard:</b> Claude 3.5 Sonnet (49.1%), GPT-4o (44.2%), Gemini 1.5 Pro (40.6%).</li>
       </ul>
@@ -164,7 +164,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">ðŸ”¬ <a href="https://github.com/vishal723694/cot-reasoning-auditor">cot-reasoning-auditor</a></h3>
+      <h3 align="center">🔬 <a href="https://github.com/vishal723694/cot-reasoning-auditor">cot-reasoning-auditor</a></h3>
       <p align="center"><b>Chain-of-Thought Logical Coherence Auditor</b></p>
       <ul>
         <li><b>Reasoning Trace Auditing:</b> Detects Premise Hallucination, Circular Reasoning, and Premature Conclusions.</li>
@@ -179,7 +179,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">ðŸ›¡ï¸ <a href="https://github.com/vishal723694/model-redteam-atlas">model-redteam-atlas</a></h3>
+      <h3 align="center">🛡️ <a href="https://github.com/vishal723694/model-redteam-atlas">model-redteam-atlas</a></h3>
       <p align="center"><b>Adversarial Red-Teaming & Safety Suite</b></p>
       <ul>
         <li><b>250+ Vectors:</b> Testing Indirect Prompt Injections, System Prompt Leaks, Canary Token extraction, and Sycophancy.</li>
@@ -192,7 +192,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">ðŸ”§ <a href="https://github.com/vishal723694/agentic-tool-use-eval">agentic-tool-use-eval</a></h3>
+      <h3 align="center">🔧 <a href="https://github.com/vishal723694/agentic-tool-use-eval">agentic-tool-use-eval</a></h3>
       <p align="center"><b>Function Calling & Multi-Tool Benchmark</b></p>
       <ul>
         <li><b>Schema Compliance:</b> Enforces strict JSON function calling, parameter types, and enum restrictions.</li>
@@ -209,12 +209,12 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 ---
 
-## ðŸ“¦ Open-Source Libraries & Community Ecosystem
+## 📦 Open-Source Libraries & Community Ecosystem
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">ðŸ“¦ <a href="https://github.com/vishal723694/llm-eval-toolkit">llm-eval-toolkit</a></h3>
+      <h3 align="center">📦 <a href="https://github.com/vishal723694/llm-eval-toolkit">llm-eval-toolkit</a></h3>
       <p align="center"><b>Modular Python SDK for Deterministic Grading & AST Diffing</b></p>
       <ul>
         <li><b>Deterministic Scoring:</b> Exact match normalizers, LaTeX boxed extractor, and epsilon tolerance numeric verifiers.</li>
@@ -229,7 +229,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">ðŸŒŸ <a href="https://github.com/vishal723694/awesome-ai-evaluations">awesome-ai-evaluations</a></h3>
+      <h3 align="center">🌟 <a href="https://github.com/vishal723694/awesome-ai-evaluations">awesome-ai-evaluations</a></h3>
       <p align="center"><b>Curated Taxonomy of Frontier AI & Agent Benchmarks</b></p>
       <ul>
         <li><b>Comprehensive Coverage:</b> SWE-bench, TerminalBench, GAIA, WebArena, MATH-500, OSWorld, HarmBench.</li>
@@ -247,7 +247,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 ---
 
-## ðŸ“Š Comprehensive Benchmark Design Matrix
+## 📊 Comprehensive Benchmark Design Matrix
 
 | Benchmark Domain | Environment Type | Primary Failure Modes Tested | Verification Method | Solvability |
 | :--- | :--- | :--- | :--- | :---: |
@@ -262,7 +262,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 ---
 
-## ðŸ› ï¸ Technical Stack & Tooling
+## 🛠️ Technical Stack & Tooling
 
 <div align="center">
 
@@ -279,7 +279,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 ---
 
-## ðŸ† GitHub Official Achievements & Badges
+## 🏆 GitHub Official Achievements & Badges
 
 <div align="center">
   <p>Verified profile milestones and developer badges earned across frontier AI benchmark repositories.</p>
@@ -294,16 +294,16 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 | Badge | Level / Multiplier | Requirement Satisfied | Status |
 | :---: | :---: | :--- | :---: |
-| ðŸ¦ˆ **Pull Shark** | **Silver (x2)** | 16 merged pull requests into default branches | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
-| âš¡ **Quickdraw** | **Unlocked** | Issue/PR closed within 5 minutes of opening | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
-| ðŸª‚ **YOLO** | **Unlocked** | Pull request merged directly without review block | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
-| ðŸ§  **Galaxy Brain** | **Silver (x2)** | 8 accepted Q&A answers in public discussions | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
-| ðŸ‘¥ **Pair Extraordinaire** | **Bronze (x1)** | Merged co-authored commits via pull requests | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+| 🦈 **Pull Shark** | **Silver (x2)** | 16 merged pull requests into default branches | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+| ⚡ **Quickdraw** | **Unlocked** | Issue/PR closed within 5 minutes of opening | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+| 🪂 **YOLO** | **Unlocked** | Pull request merged directly without review block | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+| 🧠 **Galaxy Brain** | **Silver (x2)** | 8 accepted Q&A answers in public discussions | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+| 👥 **Pair Extraordinaire** | **Bronze (x1)** | Merged co-authored commits via pull requests | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
 </div>
 
 ---
 
-## ðŸ“ˆ GitHub Telemetry & Activity Stats
+## 📈 GitHub Telemetry & Activity Stats
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=vishal723694&theme=tokyonight&no-frame=true&margin-w=12&row=1&column=6" alt="GitHub Trophies" width="100%" />
@@ -314,12 +314,12 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 ---
 
-## ðŸ“¬ Contact & Engagements
+## 📬 Contact & Engagements
 
-- ðŸ’¼ **Available for AI Evaluation Specialist, Task Authoring, and Model Red-Teaming contracts.**
-- ðŸŽ¯ **Platforms:** Mercor, Turing, Scale AI, Outlier, and frontier AI research labs.
-- âœ‰ï¸ **Direct Email:** **[your.email@gmail.com](mailto:your.email@gmail.com)**
-- ðŸŒ **GitHub:** **[github.com/vishal723694](https://github.com/vishal723694)**
+- 💼 **Available for AI Evaluation Specialist, Task Authoring, and Model Red-Teaming contracts.**
+- 🎯 **Platforms:** Mercor, Turing, Scale AI, Outlier, and frontier AI research labs.
+- ✉️ **Direct Email:** **[your.email@gmail.com](mailto:your.email@gmail.com)**
+- 🌐 **GitHub:** **[github.com/vishal723694](https://github.com/vishal723694)**
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,20&height=100&section=footer" width="100%" />
