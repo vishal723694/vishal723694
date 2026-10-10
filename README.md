@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,20&height=220&section=header&text=Vishal&fontSize=52&fontColor=ffffff&animation=fadeIn&subtext=AI%20Engineer%20%E2%80%A2%20Agent%20Benchmarks%20%E2%80%A2%20RLVR%20%E2%80%A2%20Red-Teaming&subfontSize=18&subfontColor=d8b4fe" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,20&height=220&section=header&text=Vishal%20Katiyar&fontSize=52&fontColor=ffffff&animation=fadeIn&subtext=AI%20Engineer%20%E2%80%A2%20Agent%20Benchmarks%20%E2%80%A2%20RLVR%20%E2%80%A2%20Red-Teaming&subfontSize=18&subfontColor=d8b4fe" width="100%" />
 
-  [![Gmail](https://img.shields.io/badge/Gmail-your.email%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
+  [![Gmail](https://img.shields.io/badge/Gmail-katiyarvishal072%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:katiyarvishal072@gmail.com)
   [![GitHub](https://img.shields.io/badge/GitHub-vishal723694-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vishal723694)
   [![Status](https://img.shields.io/badge/Status-Open_for_AI_Eval_Contracts-00C853?style=for-the-badge)]()
   [![Mercor & Turing Ready](https://img.shields.io/badge/Platforms-Mercor_%7C_Turing_%7C_Scale_AI-7928CA?style=for-the-badge)]()
@@ -19,7 +19,7 @@
 
   ```text
   $ whoami
-  > Vishal — Frontier AI Engineer & Agent Benchmark Specialist
+  > Vishal Katiyar — Frontier AI Engineer & Agent Benchmark Specialist
   > Specializing in SWE-bench, TerminalBench, GAIA, RLVR Verifiers & Long-Horizon Failures
   ```
 </div>
@@ -308,7 +308,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=vishal723694&theme=tokyonight&no-frame=true&margin-w=12&row=1&column=6" alt="GitHub Trophies" width="100%" />
   <br /><br />
-  <img src="https://github-readme-stats.vercel.app/api?username=vishal723694&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Vishal's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=vishal723694&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Vishal Katiyar's GitHub Stats" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishal723694&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
 </div>
 
@@ -318,7 +318,7 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 - 💼 **Available for AI Evaluation Specialist, Task Authoring, and Model Red-Teaming contracts.**
 - 🎯 **Platforms:** Mercor, Turing, Scale AI, Outlier, and frontier AI research labs.
-- ✉️ **Direct Email:** **[your.email@gmail.com](mailto:your.email@gmail.com)**
+- ✉️ **Direct Email:** **[katiyarvishal072@gmail.com](mailto:katiyarvishal072@gmail.com)**
 - 🌐 **GitHub:** **[github.com/vishal723694](https://github.com/vishal723694)**
 
 <div align="center">
