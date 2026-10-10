@@ -9,11 +9,11 @@
   <br />
 
   <!-- 🏆 Verified Achievements Quick-Bar -->
-  <a href="https://github.com/vishal723694?tab=achievements"><img src="https://img.shields.io/badge/Pull%20Shark-Silver-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Pull Shark Silver" /></a>
-  <a href="https://github.com/vishal723694?tab=achievements"><img src="https://img.shields.io/badge/Quickdraw-Unlocked-F59E0B?style=for-the-badge&logo=lightning&logoColor=white" alt="Quickdraw" /></a>
-  <a href="https://github.com/vishal723694?tab=achievements"><img src="https://img.shields.io/badge/YOLO-Merged-EF4444?style=for-the-badge&logo=gitpullrequest&logoColor=white" alt="YOLO" /></a>
-  <a href="https://github.com/vishal723694?tab=achievements"><img src="https://img.shields.io/badge/Galaxy%20Brain-Silver-8B5CF6?style=for-the-badge&logo=githubdiscussions&logoColor=white" alt="Galaxy Brain Silver" /></a>
-  <a href="https://github.com/vishal723694?tab=achievements"><img src="https://img.shields.io/badge/Pair%20Extraordinaire-Bronze-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="Pair Extraordinaire" /></a>
+  <img src="https://img.shields.io/badge/Pull%20Shark-Silver-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Pull Shark Silver" />
+  <img src="https://img.shields.io/badge/Quickdraw-Unlocked-F59E0B?style=for-the-badge&logo=lightning&logoColor=white" alt="Quickdraw" />
+  <img src="https://img.shields.io/badge/YOLO-Merged-EF4444?style=for-the-badge&logo=gitpullrequest&logoColor=white" alt="YOLO" />
+  <img src="https://img.shields.io/badge/Galaxy%20Brain-Silver-8B5CF6?style=for-the-badge&logo=githubdiscussions&logoColor=white" alt="Galaxy Brain Silver" />
+  <img src="https://img.shields.io/badge/Pair%20Extraordinaire-Bronze-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="Pair Extraordinaire" />
 
   <br /><br />
 
