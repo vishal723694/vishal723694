@@ -9,11 +9,11 @@
   <br />
 
   <!-- 🏆 Verified Achievements Quick-Bar -->
-  <img src="https://img.shields.io/badge/Pull%20Shark-Silver-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Pull Shark Silver" />
-  <img src="https://img.shields.io/badge/Quickdraw-Unlocked-F59E0B?style=for-the-badge&logo=lightning&logoColor=white" alt="Quickdraw" />
-  <img src="https://img.shields.io/badge/YOLO-Merged-EF4444?style=for-the-badge&logo=gitpullrequest&logoColor=white" alt="YOLO" />
-  <img src="https://img.shields.io/badge/Galaxy%20Brain-Silver-8B5CF6?style=for-the-badge&logo=githubdiscussions&logoColor=white" alt="Galaxy Brain Silver" />
-  <img src="https://img.shields.io/badge/Pair%20Extraordinaire-Bronze-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="Pair Extraordinaire" />
+  <img src="https://img.shields.io/badge/Pull%20Shark-Silver-10B981?style=for-the-badge&logo=github&logoColor=white&cacheSeconds=86400" alt="Pull Shark Silver" />
+  <img src="https://img.shields.io/badge/Quickdraw-Unlocked-F59E0B?style=for-the-badge&logo=lightning&logoColor=white&cacheSeconds=86400" alt="Quickdraw" />
+  <img src="https://img.shields.io/badge/YOLO-Merged-EF4444?style=for-the-badge&logo=git&logoColor=white&cacheSeconds=86400" alt="YOLO" />
+  <img src="https://img.shields.io/badge/Galaxy%20Brain-Silver-8B5CF6?style=for-the-badge&logo=githubdiscussions&logoColor=white&cacheSeconds=86400" alt="Galaxy Brain Silver" />
+  <img src="https://img.shields.io/badge/Pair%20Extraordinaire-Bronze-06B6D4?style=for-the-badge&logo=github&logoColor=white&cacheSeconds=86400" alt="Pair Extraordinaire" />
 
   <br /><br />
 
@@ -29,11 +29,11 @@
 ### ⚡ At a Glance
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Benchmark_Suites-8_Production_Frameworks-4F46E5?style=flat-square&logo=github" />
-  <img src="https://img.shields.io/badge/Verification_Standard-100%25_Deterministic-10B981?style=flat-square&logo=pytest" />
-  <img src="https://img.shields.io/badge/Red--Team_Vectors-250%2B_Adversarial_Probes-EF4444?style=flat-square&logo=securityscorecard" />
-  <img src="https://img.shields.io/badge/Long--Horizon_Tasks-15--30%2B_Steps-F59E0B?style=flat-square&logo=speedtest" />
-  <img src="https://img.shields.io/badge/Containerization-Docker_Sandboxed-0284C7?style=flat-square&logo=docker" />
+  <img src="https://img.shields.io/badge/Benchmark_Suites-8_Production_Frameworks-4F46E5?style=flat-square&logo=github&cacheSeconds=86400" />
+  <img src="https://img.shields.io/badge/Verification_Standard-100%25_Deterministic-10B981?style=flat-square&logo=pytest&cacheSeconds=86400" />
+  <img src="https://img.shields.io/badge/Red--Team_Vectors-250%2B_Adversarial_Probes-EF4444?style=flat-square&logo=securityscorecard&cacheSeconds=86400" />
+  <img src="https://img.shields.io/badge/Long--Horizon_Tasks-15--30%2B_Steps-F59E0B?style=flat-square&logo=speedtest&cacheSeconds=86400" />
+  <img src="https://img.shields.io/badge/Containerization-Docker_Sandboxed-0284C7?style=flat-square&logo=docker&cacheSeconds=86400" />
 </div>
 
 ---
@@ -103,8 +103,8 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Leaderboard:</b> Claude 3.5 Sonnet (75.0%), GPT-4o (62.5%), DeepSeek-V3 (62.5%).</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Tasks-8_Verified-brightgreen" />
-        <img src="https://img.shields.io/badge/Pass%401-Deterministic-blue" />
+        <img src="https://img.shields.io/badge/Tasks-8_Verified-brightgreen?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/Pass%401-Deterministic-blue?cacheSeconds=86400" />
       </p>
     </td>
     <td width="50%">
@@ -116,8 +116,8 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Verified Instances:</b> Pre-bundled tasks for <code>requests</code>, <code>flask</code>, and <code>scikit-learn</code> + JSONL exporter.</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Format-Official_SWE--bench-orange" />
-        <img src="https://img.shields.io/badge/F2P%2FP2P-Enforced-success" />
+        <img src="https://img.shields.io/badge/Format-Official_SWE--bench-orange?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/F2P%2FP2P-Enforced-success?cacheSeconds=86400" />
       </p>
     </td>
   </tr>
@@ -131,8 +131,8 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Empirical Analysis:</b> Published failure distributions across 120 trajectories for Claude, GPT, and DeepSeek.</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Horizon-15--30%2B_Steps-red" />
-        <img src="https://img.shields.io/badge/Taxonomy-6_Classes-purple" />
+        <img src="https://img.shields.io/badge/Horizon-15--30%2B_Steps-red?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/Taxonomy-6_Classes-purple?cacheSeconds=86400" />
       </p>
     </td>
     <td width="50%">
@@ -144,8 +144,8 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Benchmarks:</b> Tested on MATH-500 and GSM8K-Hard for reasoning models (o1, DeepSeek-R1, Qwen-2.5-Math).</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/RLVR-Binary_Rewards-brightgreen" />
-        <img src="https://img.shields.io/badge/MATH--500-Integrated-blue" />
+        <img src="https://img.shields.io/badge/RLVR-Binary_Rewards-brightgreen?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/MATH--500-Integrated-blue?cacheSeconds=86400" />
       </p>
     </td>
   </tr>
@@ -159,8 +159,8 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Leaderboard:</b> Claude 3.5 Sonnet (49.1%), GPT-4o (44.2%), Gemini 1.5 Pro (40.6%).</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Benchmark-GAIA%20Multi--Modal-purple" />
-        <img src="https://img.shields.io/badge/Levels-1%20to%203-blue" />
+        <img src="https://img.shields.io/badge/Benchmark-GAIA%20Multi--Modal-purple?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/Levels-1%20to%203-blue?cacheSeconds=86400" />
       </p>
     </td>
     <td width="50%">
@@ -172,8 +172,8 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Report:</b> Tested on reasoning traces from DeepSeek-R1, OpenAI o1, and QwQ-32B.</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Focus-CoT%20Auditing-orange" />
-        <img src="https://img.shields.io/badge/Fallacies-Detected-brightgreen" />
+        <img src="https://img.shields.io/badge/Focus-CoT%20Auditing-orange?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/Fallacies-Detected-brightgreen?cacheSeconds=86400" />
       </p>
     </td>
   </tr>
@@ -187,8 +187,8 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Safety Leaderboard:</b> Benchmarked defense rates across Claude 3.5 Sonnet (95.7%), GPT-4o (92.9%), and DeepSeek-V3.</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Vectors-250%2B_Adversarial-red" />
-        <img src="https://img.shields.io/badge/Safety-Evaluated-teal" />
+        <img src="https://img.shields.io/badge/Vectors-250%2B_Adversarial-red?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/Safety-Evaluated-teal?cacheSeconds=86400" />
       </p>
     </td>
     <td width="50%">
@@ -200,8 +200,8 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Multi-Tool Chains:</b> Interdependent workflows combining SQL, Calculator, Filesystem, and REST APIs.</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Tools-Multi--Orchestration-yellow" />
-        <img src="https://img.shields.io/badge/JSON_Schema-Validated-blueviolet" />
+        <img src="https://img.shields.io/badge/Tools-Multi--Orchestration-yellow?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/JSON_Schema-Validated-blueviolet?cacheSeconds=86400" />
       </p>
     </td>
   </tr>
@@ -223,9 +223,9 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Token Cost Telemetry:</b> Pre-configured financial pricing auditor for GPT-4o, Claude 3.5, and DeepSeek-R1.</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Python-3.9%2B-blue" />
-        <img src="https://img.shields.io/badge/License-MIT-green" />
-        <img src="https://img.shields.io/badge/Package-SDK-orange" />
+        <img src="https://img.shields.io/badge/Python-3.9%2B-blue?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/License-MIT-green?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/Package-SDK-orange?cacheSeconds=86400" />
       </p>
     </td>
     <td width="50%">
@@ -237,9 +237,9 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
         <li><b>Methodology Guides:</b> Best practices for RLVR reward modeling, contamination detection, and sandboxing.</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Awesome-Curated-brightgreen" />
-        <img src="https://img.shields.io/badge/Taxonomy-Frontier_Evals-blueviolet" />
-        <img src="https://img.shields.io/badge/PRs-Welcome-success" />
+        <img src="https://img.shields.io/badge/Awesome-Curated-brightgreen?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/Taxonomy-Frontier_Evals-blueviolet?cacheSeconds=86400" />
+        <img src="https://img.shields.io/badge/PRs-Welcome-success?cacheSeconds=86400" />
       </p>
     </td>
   </tr>
@@ -308,8 +308,10 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 <div align="center">
   <img src="https://github-profile-repo.vercel.app/?username=vishal723694&theme=tokyonight&no-frame=true&margin-w=12&row=1&column=6" alt="GitHub Trophies" width="100%" />
   <br /><br />
-  <img src="https://github-readme-stats.vercel.app/api?username=vishal723694&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Vishal Katiyar's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishal723694&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vishal723694&theme=tokyonight" alt="Vishal Katiyar's GitHub Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vishal723694&theme=tokyonight" alt="Top Languages" width="48%" />
+  <br /><br />
+  <img src="https://streak-stats.demolab.com?user=vishal723694&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="70%" />
 </div>
 
 ---
